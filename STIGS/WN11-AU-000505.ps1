@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that the Windows Security event log has a maximum size of at least 5120000 KB (approximately 5 GB) to retain one week's worth of audit records.
 
 .NOTES
