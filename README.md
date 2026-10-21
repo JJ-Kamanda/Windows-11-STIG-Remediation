@@ -12,16 +12,16 @@ Ten DISA STIG findings on a Windows 11 lab VM in Azure, each remediated with Pow
 
 | STIG ID | Finding | Before | After | Script |
 |---|---|---|---|---|
-| WN11-AU-000115 | Sensitive Privilege Use - Success auditing enabled | Failed | Passed | [WN11-AU-000115.ps1](STIGs/WN11-AU-000115.ps1) |
-| WN11-AU-000500 | Application event log size ≥ 32768 KB | Failed | Passed | [WN11-AU-000500.ps1](STIGs/WN11-AU-000500.ps1) |
-| WN11-AU-000505 | Security event log size ≥ 5120000 KB | Failed | Passed | [WN11-AU-000505.ps1](STIGs/WN11-AU-000505.ps1) |
-| WN11-CC-000110 | HTTP printing disabled | Failed | Passed | [WN11-CC-000110.ps1](STIGs/WN11-CC-000110.ps1) |
-| WN11-CC-000285 | Remote Desktop RPC encryption required | Failed | Passed | [WN11-CC-000285.ps1](STIGs/WN11-CC-000285.ps1) |
-| WN11-CC-000310 | Windows Installer user control disabled | Failed | Passed | [WN11-CC-000310.ps1](STIGs/WN11-CC-000310.ps1) |
-| WN11-CC-000315 | Windows Installer elevated privileges disabled | Failed | Passed | [WN11-CC-000315.ps1](STIGs/WN11-CC-000315.ps1) |
-| WN11-SO-000025 | Built-in Guest account renamed | Failed | Passed | [WN11-SO-000025.ps1](STIGs/WN11-SO-000025.ps1) |
-| WN11-SO-000220 | NTLMv2 session security and 128-bit encryption required | Failed | Passed | [WN11-SO-000220.ps1](STIGs/WN11-SO-000220.ps1) |
-| WN11-UR-000160 | Restore files and directories restricted to Administrators | Failed | Passed | [WN11-UR-000160.ps1](STIGs/WN11-UR-000160.ps1) |
+| WN11-AU-000115 | Sensitive Privilege Use - Success auditing enabled | Failed | Passed | [WN11-AU-000115.ps1](STIGS/WN11-AU-000115.ps1) |
+| WN11-AU-000500 | Application event log size ≥ 32768 KB | Failed | Passed | [WN11-AU-000500.ps1](STIGS/WN11-AU-000500.ps1) |
+| WN11-AU-000505 | Security event log size ≥ 5120000 KB | Failed | Passed | [WN11-AU-000505.ps1](STIGS/WN11-AU-000505.ps1) |
+| WN11-CC-000110 | HTTP printing disabled | Failed | Passed | [WN11-CC-000110.ps1](STIGS/WN11-CC-000110.ps1) |
+| WN11-CC-000285 | Remote Desktop RPC encryption required | Failed | Passed | [WN11-CC-000285.ps1](STIGS/WN11-CC-000285.ps1) |
+| WN11-CC-000310 | Windows Installer user control disabled | Failed | Passed | [WN11-CC-000310.ps1](STIGS/WN11-CC-000310.ps1) |
+| WN11-CC-000315 | Windows Installer elevated privileges disabled | Failed | Passed | [WN11-CC-000315.ps1](STIGS/WN11-CC-000315.ps1) |
+| WN11-SO-000025 | Built-in Guest account renamed | Failed | Passed | [WN11-SO-000025.ps1](STIGS/WN11-SO-000025.ps1) |
+| WN11-SO-000220 | NTLMv2 session security and 128-bit encryption required | Failed | Passed | [WN11-SO-000220.ps1](STIGS/WN11-SO-000220.ps1) |
+| WN11-UR-000160 | Restore files and directories restricted to Administrators | Failed | Passed | [WN11-UR-000160.ps1](STIGS/WN11-UR-000160.ps1) |
 
 ## Method
 
@@ -43,7 +43,3 @@ Ten DISA STIG findings on a Windows 11 lab VM in Azure, each remediated with Pow
 Each script is standalone. Run it in an elevated PowerShell session on the target Windows 11 system, verify the setting, and rescan with Tenable.
 
 The scripts modify the settings associated with their respective STIG checks. Review each script before running it outside a lab environment.
-
----
-
-JJ Kamanda · [github.com/JJKamanda](https://github.com/JJ-Kamanda) · [linkedin.com/in/jj-kamanda](https://linkedin.com/in/jj-kamanda)
