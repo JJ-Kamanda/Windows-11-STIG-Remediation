@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that the Windows Installer AlwaysInstallElevated policy is disabled (set to 0), preventing installations with elevated privileges.
 
 .NOTES
