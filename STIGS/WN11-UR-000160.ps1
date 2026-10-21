@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that only the Administrators group has the "Restore files and directories" user right, preventing unauthorized users from restoring files or overriding file permissions.
 
 .NOTES
