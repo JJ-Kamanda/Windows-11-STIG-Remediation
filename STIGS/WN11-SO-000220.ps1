@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that NTLM server session security requires NTLMv2 session security and 128-bit encryption.
 
 .NOTES
