@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that Windows Installer user control is disabled by setting EnableUserControl to 0, preventing users from changing installation options that may bypass security restrictions.
 
 .NOTES
