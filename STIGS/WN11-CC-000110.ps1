@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that HTTP printing is disabled by setting DisableHTTPPrinting to 1, preventing Windows from printing over HTTP.
 
 .NOTES
