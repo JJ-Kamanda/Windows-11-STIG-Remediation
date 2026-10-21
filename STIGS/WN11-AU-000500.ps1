@@ -1,7 +1,7 @@
 
 
 <#
-.SYNOPSIS
+.SYNOPSIS 
     This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
 
 .NOTES
