@@ -43,3 +43,10 @@ Ten DISA STIG findings on a Windows 11 lab VM in Azure, each remediated with Pow
 Each script is standalone. Run it in an elevated PowerShell session on the target Windows 11 system, verify the setting, and rescan with Tenable.
 
 The scripts modify the settings associated with their respective STIG checks. Review each script before running it outside a lab environment.
+
+---
+
+
+---
+
+**JJ Kamanda** · [github.com/JJ-Kamanda](https://github.com/JJ-Kamanda) · [linkedin.com/in/jj-kamanda/](https://www.linkedin.com/in/jj-kamanda/)
