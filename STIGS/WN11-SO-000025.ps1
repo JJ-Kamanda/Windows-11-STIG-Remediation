@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that the built-in Windows Guest account is renamed to RestrictedGuest to reduce the risk of unauthorized access.
 
 .NOTES
