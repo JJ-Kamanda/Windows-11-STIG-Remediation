@@ -1,5 +1,5 @@
 <#
-.SYNOPSIS
+.SYNOPSIS 
      This PowerShell script ensures that Remote Desktop Services RPC traffic is encrypted by setting fEncryptRPCTraffic to 1.
 
 .NOTES
