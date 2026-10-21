@@ -1,4 +1,4 @@
-# Windows 11 STIG remediation
+# Windows 11 STIG remediation 
 
 Ten DISA STIG findings on a Windows 11 Pro 25H2 lab VM in Azure, each remediated with PowerShell and verified with a
 credentialed Tenable compliance scan: **failed before, passed after**.
